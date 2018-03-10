@@ -1,0 +1,70 @@
+#titleSection {
+  color: yellow;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.white-shield img, .blue-shield img {
+  width: 30%;
+  right: -20vh;
+  position: fixed;
+  bottom: 0;
+}
+
+#footer p {
+  bottom: 18vh;
+  left: -10vh;
+  position: fixed;
+  color: #fff;
+  font-size: 25px
+}
+
+label#name {
+  font-size: 30px;
+}
+
+span#titleSlide2 div {
+  position:relative;
+}
+
+span#titleSlide2 div p {
+  color: #175AB3; /* Color for Heading */
+  position:absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: -12vh;
+}
+
+div.content {
+  font-size: 25px;
+}
+
+div.content p {
+  font-size: 20px;
+  color: #1F65BB; /* Color for Body */
+}
+
+#formyTitle {
+  color: #175AB3;
+}
+
+#paper {
+  font-size: 5em;
+  position: absolute;
+  top: 8vh;
+  right: 6vh;
+  transform: rotate(10deg);
+}
+
+#calendar {
+  position: absolute;
+  font-size: 5em;
+  top: 44vh;
+  left: 78vh;
+
+}

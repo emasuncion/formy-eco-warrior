@@ -1,0 +1,137 @@
+ul, li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    display: inline;
+}
+
+li a {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.profile-image {
+    position: static;
+    left: -16rem;
+    top: -20px;
+    float: left;
+}
+
+.profile-image img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+.introduction {
+  font: 400 100px/1.5 'Pacifico', Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+}
+
+svg.bleed:hover {
+  color: #ff0000;
+}
+
+h4.introduction {
+  font-size: 4rem;
+}
+
+.intro-paragraph {
+  max-width: 460px;
+  margin: 0 auto;
+}
+
+div.about-me-images img {
+  width: 250px;
+  display: inline-block;
+  margin: 3rem;
+}
+
+.me-paragraph {
+  color: #000;
+  text-shadow: none;
+  padding: 0 20px;
+}
+
+img.stack-logos {
+  width: 240px;
+  padding: 5px;
+}
+
+img.html-css-js-logo {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 5%;
+}
+
+.react-logo {
+    animation: App-logo-spin infinite 20s linear;
+    box-shadow: none;
+}
+
+@keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.mysql-logo {
+  background-color: #fff;
+  border-radius: 15%;
+}
+
+.show-full-stack {
+  margin: 10px;
+}
+
+.full-stack {
+  color: #000;
+  text-shadow: none;
+}
+
+/*MEDIA QUERY RULES*/
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  .introduction {
+    font-size: 35px;
+  }
+
+  .profile-image img {
+    float: left;
+  }
+
+  .nav {
+    display: grid;
+  }
+
+  header.masthead {
+    width: 80%;
+    text-align: right;
+  }
+
+  footer.mastfoot {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  div.about-me-images img {
+    width: 100px;
+    display: inline-block;
+    margin: 10px;
+  }
+
+  img.stack-logos {
+    width: 60px;
+    padding: 5px;
+  }
+}
