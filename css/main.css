@@ -41,11 +41,11 @@ span#titleSlide2 div p {
 }
 
 div.content {
-  font-size: 25px;
+  font-size: 45px;
 }
 
 div.content p {
-  font-size: 20px;
+  font-size: 50px;
   color: #1F65BB; /* Color for Body */
 }
 
@@ -54,7 +54,7 @@ div.content p {
 }
 
 #paper {
-  font-size: 5em;
+  font-size: 3em;
   position: absolute;
   top: 8vh;
   right: 6vh;
@@ -63,7 +63,7 @@ div.content p {
 
 #calendar {
   position: absolute;
-  font-size: 5em;
+  font-size: 3em;
   top: 44vh;
   left: 78vh;
 
