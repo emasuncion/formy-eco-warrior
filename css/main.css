@@ -54,7 +54,7 @@ div.content p {
 }
 
 #paper {
-  font-size: 3em;
+  font-size: 2em;
   position: absolute;
   top: 8vh;
   right: 6vh;
@@ -63,8 +63,40 @@ div.content p {
 
 #calendar {
   position: absolute;
-  font-size: 3em;
+  font-size: 2em;
   top: 44vh;
   left: 78vh;
 
+}
+
+div.mockups img {
+  height: 85vh;
+}
+
+#creationOfForms, #formsList, #creationOfProcess, #processList, #creationOfPublicLink, #publicLinkList {
+  color: #175AB3;
+  position: absolute;
+  transform: rotate(-90deg);
+  top: 38vh;
+  left: -37vh;
+}
+
+#formsList {
+  left: -27vh !important;
+}
+
+#creationOfProcess {
+  left: -43vh !important;
+}
+
+#processList {
+  left: -30vh !important;
+}
+
+#creationOfPublicLink {
+  left: -44vh !important;
+}
+
+#publicLinkList {
+  left: -35vh !important;
 }
